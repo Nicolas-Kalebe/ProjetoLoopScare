@@ -56,6 +56,7 @@
     {"id":{"name":"_3","path":"sounds/_3/_3.yy",},},
     {"id":{"name":"_4","path":"sounds/_4/_4.yy",},},
     {"id":{"name":"_5","path":"sounds/_5/_5.yy",},},
+    {"id":{"name":"doorOpening","path":"sounds/doorOpening/doorOpening.yy",},},
     {"id":{"name":"sndBack","path":"sounds/sndBack/sndBack.yy",},},
     {"id":{"name":"back","path":"sprites/back/back.yy",},},
     {"id":{"name":"back2","path":"sprites/back2/back2.yy",},},
