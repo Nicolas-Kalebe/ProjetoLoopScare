@@ -6,7 +6,9 @@ if(instance_exists(oDialogo)){
 }
 #endregion
 
+#region FadeIn ao spawnar e atravessar portas.
 if (fade_in_alpha <= 0) {
 	fade_in = false;
 	fade_in_alpha = 1;
 }
+#endregion

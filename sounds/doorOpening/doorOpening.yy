@@ -12,8 +12,8 @@
   "duration":1.985306,
   "name":"doorOpening",
   "parent":{
-    "name":"Projeto SMT",
-    "path":"Projeto SMT.yyp",
+    "name":"Sons",
+    "path":"folders/Sons.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
