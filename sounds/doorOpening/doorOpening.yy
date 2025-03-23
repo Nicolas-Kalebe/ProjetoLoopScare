@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.985306,
+  "duration":1.567347,
   "name":"doorOpening",
   "parent":{
     "name":"Sons",

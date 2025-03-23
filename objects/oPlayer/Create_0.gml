@@ -1,5 +1,5 @@
 dfgrav=8 // gravidade padrao
-spd=5; // velocidade horizonta
+spd=2.5; // velocidade horizonta
 hspd=0;
 vspd=0;
 
@@ -11,3 +11,6 @@ movimento = 0 // variavel que vai de -1 e 1 para checar se o personagem estava a
 
 
 //audio_play_sound(sndBack,1,1);
+
+
+window_set_size(1280, 720);
