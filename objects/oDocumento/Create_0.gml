@@ -2,6 +2,9 @@ img_documento = "";
 img = 0;
 pagina = 0;
 
+zoomAtivo = false;
+zoom = 2
+zoom2 = 1
 
 
 //Dividido por 4 por que o documento divide por 2, pegando assim o centro da janela.
