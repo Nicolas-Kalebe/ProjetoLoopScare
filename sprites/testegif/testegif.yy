@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":5,
   "parent":{
-    "name":"Lanterna",
-    "path":"folders/Sprites/Lanterna.yy",
+    "name":"Personagens",
+    "path":"folders/Sprites/Personagens.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
