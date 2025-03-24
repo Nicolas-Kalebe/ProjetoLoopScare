@@ -70,5 +70,8 @@ if(distance_to_object(oPaiNPCs) < 10) { // Checa a distancia de qualquer npc da 
 if(keyboard_check_pressed(ord("T"))){
 	global.lanterna = !global.lanterna
 }
+if(keyboard_check_pressed(ord("I"))){
+	global.inventario = !global.inventario;	
+}
 
 #endregion
