@@ -1,6 +1,7 @@
 global.dialogando = false;
 global.parado = true;
 global.lanterna = false;
+global.entrando = false;
 
 fade_in = true;
 fade_in_alpha = 1

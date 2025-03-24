@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"doorOpening",
+  "%Name":"snd_doorOpening",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.567347,
-  "name":"doorOpening",
+  "name":"snd_doorOpening",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"doorOpening.mp3",
+  "soundFile":"snd_doorOpening.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -8,8 +8,8 @@
   "name":"oSwitch",
   "overriddenProperties":[],
   "parent":{
-    "name":"Projeto SMT",
-    "path":"Projeto SMT.yyp",
+    "name":"Objetos de Controle",
+    "path":"folders/Objetos de Controle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

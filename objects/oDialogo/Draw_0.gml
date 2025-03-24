@@ -30,4 +30,4 @@ if(string_count("\n",texto[pagina])>=2){ //Contador de linhas para reajuste do s
 	draw_text_ext(localx, _margemSup, _texto, 12, string_width(texto[pagina]));
 }
 
-draw_text(x,y,caractere);
+draw_text(x,y,npc_nome);

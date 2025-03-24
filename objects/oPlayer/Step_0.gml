@@ -1,3 +1,5 @@
+var _impedimento = global.dialogando or global.entrando
+
 #region Movimentação NOVA
 key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
@@ -6,7 +8,7 @@ var move = key_right - key_left; //Retorna 1 ou -1
 hspd = move*spd; //define velocidade positiva ou negativa
 vspd = vspd + grav;
 
-if (hspd != 0 && global.dialogando == false) { //Se velocidade diferente de zero altera o sprite e vira ela pro lado certo.
+if (hspd != 0 && _impedimento == false) { //Se velocidade diferente de zero altera o sprite e vira ela pro lado certo.
 	sprite_index = sMarleWalk;
     image_xscale = sign(hspd) * abs(image_xscale);
 	
@@ -35,7 +37,7 @@ if(place_meeting(x+hspd,y,oColisao)){ // Checa se ta colidindo
 	}
 	hspd=0
 }
-if global.dialogando == false { //se nao tiver em um dialogo
+if _impedimento == false { //se nao tiver em um dialogo
 	x = x+hspd; // Anda '-'
 }
 #endregion
