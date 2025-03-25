@@ -17,6 +17,7 @@
     {"name":"fonteMenu","order":1,"path":"fonts/fonteMenu/fonteMenu.yy",},
     {"name":"dModelo","order":2,"path":"objects/dModelo/dModelo.yy",},
     {"name":"MenuDocumentos","order":42,"path":"objects/MenuDocumentos/MenuDocumentos.yy",},
+    {"name":"MenuDocumentosbackup","order":45,"path":"objects/MenuDocumentosbackup/MenuDocumentosbackup.yy",},
     {"name":"oback","order":30,"path":"objects/oback/oback.yy",},
     {"name":"oColisao","order":26,"path":"objects/oColisao/oColisao.yy",},
     {"name":"oControle","order":1,"path":"objects/oControle/oControle.yy",},

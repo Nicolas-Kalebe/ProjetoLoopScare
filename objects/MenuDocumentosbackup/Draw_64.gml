@@ -1,5 +1,5 @@
 draw_set_color(c_black);
-//draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
 
 var _guix = display_get_gui_width() / 2;
 var _guiy = display_get_gui_height() / 2;
@@ -30,12 +30,7 @@ for (var i = 0; i < tamanhoDaLista; i++) {
         if (mouse_sobre && mouse_check_button_pressed(mb_left)) {
             indice_selecionado = i;
             show_debug_message("Selecionado: " + listaDeDocumentos);
-			var _documento = instance_create_layer(x,y,"lDocumento",oDocumento)
-			_documento.img_documento = listaDeDocumentos;
         }
-		
-		
-		
 
         // Destacar opção selecionada
         if (i == indice_selecionado) {

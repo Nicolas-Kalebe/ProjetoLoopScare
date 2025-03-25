@@ -36,6 +36,7 @@
     {"id":{"name":"dCaixa","path":"objects/dCaixa/dCaixa.yy",},},
     {"id":{"name":"dModelo","path":"objects/dModelo/dModelo.yy",},},
     {"id":{"name":"MenuDocumentos","path":"objects/MenuDocumentos/MenuDocumentos.yy",},},
+    {"id":{"name":"MenuDocumentosbackup","path":"objects/MenuDocumentosbackup/MenuDocumentosbackup.yy",},},
     {"id":{"name":"oback","path":"objects/oback/oback.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oColisao","path":"objects/oColisao/oColisao.yy",},},

@@ -1,4 +1,4 @@
-var _impedimento = global.dialogando or global.entrando
+var _impedimento = global.dialogando or global.entrando or global.menu
 
 #region Movimentação NOVA
 key_right = keyboard_check(ord("D"));
@@ -75,3 +75,5 @@ if(keyboard_check_pressed(ord("I"))){
 }
 
 #endregion
+
+show_debug_message(global.menu);
