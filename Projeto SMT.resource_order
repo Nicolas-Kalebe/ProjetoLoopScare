@@ -10,6 +10,7 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Inventário","order":12,"path":"folders/Sprites/Inventário.yy",},
+    {"name":"Itens","order":3,"path":"folders/Sprites/Inventário/Itens.yy",},
     {"name":"Lanterna","order":8,"path":"folders/Sprites/Lanterna.yy",},
     {"name":"Personagens","order":7,"path":"folders/Sprites/Personagens.yy",},
   ],

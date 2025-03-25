@@ -17,6 +17,9 @@ if (global.inventario == true) {
 		if(point_in_rectangle(_mx, _my, _slotx, _sloty, _slotx + tamanho_slot, _sloty + tamanho_slot)){
 			draw_sprite_ext(sSeletor, 0, _slotx, _sloty, 1, 1, 0, c_white, 0.3);
 		}
+		if (grid_itens[# Infos.item, i] != -1){
+			draw_sprite_ext(sItens, grid_itens[# 0, i], _slotx, _sloty, 1, 1, 0, c_white, 1);
+		}
 		ix++;
 		if(ix>=slots_h){
 			ix=0;
