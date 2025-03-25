@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sSeletor",
   "bboxMode":0,
-  "bbox_bottom":15,
+  "bbox_bottom":49,
   "bbox_left":0,
-  "bbox_right":15,
+  "bbox_right":49,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":16,
+  "height":50,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2fa4ad97-aaeb-45bb-beff-b92a37e16b62","blendMode":0,"displayName":"default","isLocked":false,"name":"2fa4ad97-aaeb-45bb-beff-b92a37e16b62","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":16,
+  "width":50,
 }
