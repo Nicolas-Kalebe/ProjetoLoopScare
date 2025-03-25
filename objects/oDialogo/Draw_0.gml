@@ -12,7 +12,7 @@ var _c = c_black;
 
 var _texto = string_copy(texto[pagina],0,caractere);
 
-draw_set_font(Font1)
+draw_set_font(fonteDialogo)
 
 draw_sprite_stretched(nineslice,1,_margemEsq-15,_margemSup-10,_linha+30,_coluna)
 draw_set_color(c_white);    
