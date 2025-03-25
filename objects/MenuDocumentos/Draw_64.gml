@@ -1,6 +1,6 @@
 draw_set_color(c_black);
 
-//draw_rectangle(0,0,display_get_gui_width(),display_get_gui_height(),0);
+draw_rectangle(0,0,display_get_gui_width(),display_get_gui_height(),0);
 
 
 var tamanhoDaLista = ds_list_size(oDocumentosColetados.DocEncontrados);
@@ -21,4 +21,5 @@ for (var i=0;i<tamanhoDaLista;i++){
 	draw_text(_guix,_guiy- 150 + i*_espacamento, listaDeDocumentos)
 
 }
+
 

@@ -31,7 +31,7 @@
   },
   "name":"Projeto SMT",
   "resources":[
-    {"id":{"name":"fonteDialogo","path":"fonts/fonteDialogo/fonteDialogo.yy",},},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"fonteMenu","path":"fonts/fonteMenu/fonteMenu.yy",},},
     {"id":{"name":"dCaixa","path":"objects/dCaixa/dCaixa.yy",},},
     {"id":{"name":"dModelo","path":"objects/dModelo/dModelo.yy",},},
@@ -50,7 +50,6 @@
     {"id":{"name":"oPaiNPCs","path":"objects/oPaiNPCs/oPaiNPCs.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSwitch","path":"objects/oSwitch/oSwitch.yy",},},
-    {"id":{"name":"oTeste","path":"objects/oTeste/oTeste.yy",},},
     {"id":{"name":"pModeloPorta","path":"objects/pModeloPorta/pModeloPorta.yy",},},
     {"id":{"name":"pSala1","path":"objects/pSala1/pSala1.yy",},},
     {"id":{"name":"pSala2","path":"objects/pSala2/pSala2.yy",},},
