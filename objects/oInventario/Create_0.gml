@@ -6,6 +6,8 @@ escala=1;
 slots_h = 6;
 slots_y = 5;
 
+global.slot_selecionado = 0;
+
 total_slots = slots_h*slots_y;
 tamanho_slot = 49;
 buffer = 4; //tamanho do espaço entre as linhas do inventario

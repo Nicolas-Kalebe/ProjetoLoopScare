@@ -78,4 +78,17 @@ if(keyboard_check_pressed(ord("I"))){
 	global.inventario = !global.inventario;	
 }
 
+if(keyboard_check_pressed((vk_right))){
+	global.slot_selecionado++;
+}
+if(keyboard_check_pressed((vk_left)) && global.slot_selecionado != 0){
+	global.slot_selecionado--;
+}
+//if(keyboard_check(vk_right)){
+//	global.slot_selecionado++;
+//}
+//if(keyboard_check((vk_left)) && global.slot_selecionado != 0){
+//	global.slot_selecionado--;
+//}
 #endregion
+
