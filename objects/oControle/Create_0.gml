@@ -1,7 +1,10 @@
 global.dialogando = false;
+global.entrando = false;
+global.menu = false;
+
 global.parado = true;
 global.lanterna = false;
-global.entrando = false;
+
 global.inventario = false;
 
 
