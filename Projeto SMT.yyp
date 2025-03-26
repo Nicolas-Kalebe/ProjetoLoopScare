@@ -77,6 +77,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sCaixa","path":"sprites/sCaixa/sCaixa.yy",},},
     {"id":{"name":"sCarta","path":"sprites/sCarta/sCarta.yy",},},
+    {"id":{"name":"sCetinha","path":"sprites/sCetinha/sCetinha.yy",},},
     {"id":{"name":"sColisao","path":"sprites/sColisao/sColisao.yy",},},
     {"id":{"name":"sInventario","path":"sprites/sInventario/sInventario.yy",},},
     {"id":{"name":"sItens","path":"sprites/sItens/sItens.yy",},},

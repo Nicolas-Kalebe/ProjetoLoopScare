@@ -1,3 +1,5 @@
+var listaDeDocumentos = ds_list_find_value(oDocumentosColetados.DocEncontrados, indice_selecionado);
+
 if(inicializar==false){
 	global.menu = true;
 	inicializar = true;
@@ -6,7 +8,7 @@ if(inicializar==false){
 var _guiy = display_get_gui_height() / 2;
 
 #region Navegação pelo Teclado
-if (keyboard_check_pressed(ord("W"))) { // Pra cima
+if (global.dialogando == false && keyboard_check_pressed(ord("W"))) { // Pra cima
     if (indice_selecionado == 0) {
         // Se for o primeiro item, vai para o último e ajusta o scroll_offset
         indice_selecionado = tamanhoDaLista - 1;
@@ -24,7 +26,7 @@ if (keyboard_check_pressed(ord("W"))) { // Pra cima
     }
 }
 
-if (keyboard_check_pressed(ord("S"))) { // Pra baixo
+if (global.dialogando == false && keyboard_check_pressed(ord("S"))) { // Pra baixo
     if (indice_selecionado == tamanhoDaLista - 1) {
         // Se for o último item, volta ao primeiro e zera o scroll_offset
         indice_selecionado = 0;
@@ -42,9 +44,11 @@ if (keyboard_check_pressed(ord("S"))) { // Pra baixo
     }
 }
 
-if (keyboard_check_pressed(vk_space)) {// Confirmar
+if (global.dialogando == false && keyboard_check_pressed(vk_space)) {// Confirmar
 			var documento = ds_list_find_value(oDocumentosColetados.DocEncontrados, indice_selecionado);
 			show_debug_message("Selecionado: " + documento);
+			var _documento = instance_create_layer(x,y,"lDocumento",oDocumento)
+			_documento.img_documento = listaDeDocumentos;
 		}
 		
 #endregion
@@ -58,3 +62,9 @@ if (mouse_wheel_up()) {
     scroll_offset -= scroll_speed;
 }
 #endregion
+
+if(keyboard_check_pressed(vk_escape)){
+	global.menu=false;
+	global.dialogando=false;
+	instance_destroy(self);
+}

@@ -52,6 +52,7 @@
     {"name":"NPCplaceholder2","order":6,"path":"sprites/NPCplaceholder2/NPCplaceholder2.yy",},
     {"name":"sBackground","order":1,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"sCaixa","order":10,"path":"sprites/sCaixa/sCaixa.yy",},
+    {"name":"sCetinha","order":13,"path":"sprites/sCetinha/sCetinha.yy",},
     {"name":"sInventario","order":2,"path":"sprites/sInventario/sInventario.yy",},
     {"name":"sJornal","order":1,"path":"sprites/sJornal/sJornal.yy",},
     {"name":"sLuz","order":1,"path":"sprites/sLuz/sLuz.yy",},

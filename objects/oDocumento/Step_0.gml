@@ -1,5 +1,6 @@
 #region Inicializa
 global.dialogando = true;
+show_debug_message(device_mouse_y_to_gui(0))
 if(inicializar==false){ //Inicializa a função que pega a img do script
 	scrDocumentos();
 	audio_play_sound(snd_papel,1,0);

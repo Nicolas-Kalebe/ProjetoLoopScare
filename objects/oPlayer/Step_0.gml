@@ -80,4 +80,12 @@ if(keyboard_check_pressed(ord("I"))){
 
 #endregion
 
+#region Documentos
+if(global.menu==false && keyboard_check_pressed(ord("C"))){
+	instance_create_layer(x,y,"Instances_1",MenuDocumentos);
+}
+
+
+
+#endregion
 show_debug_message(global.menu);
