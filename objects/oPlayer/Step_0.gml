@@ -76,6 +76,30 @@ if(keyboard_check_pressed(ord("T"))){
 #region Inventário
 if(keyboard_check_pressed(ord("I"))){
 	global.inventario = !global.inventario;	
+  
+if(keyboard_check_pressed((vk_right))){
+	global.slot_selecionado++;
+}
+if(keyboard_check_pressed((vk_left))){
+	if(global.slot_selecionado==0){
+		global.slot_selecionado=30;
+	}
+	global.slot_selecionado--;
+}
+if (keyboard_check_pressed(vk_down)) {
+    if (global.slot_selecionado + 6 < 30) {
+        global.slot_selecionado += 6; // Move uma linha para baixo
+    }
+}
+
+if (keyboard_check_pressed(vk_up)) {
+    if (global.slot_selecionado - 6 >= 0) {
+        global.slot_selecionado -= 6; // Move uma linha para cima
+    }
+
+if (global.item_equipado != -1) { // Se um item estiver equipado
+    draw_sprite_ext(global.item_equipado, 0, x, y - 10, 1, 1, 0, c_white, 1);
+}  
 }
 
 #endregion
@@ -89,3 +113,8 @@ if(global.menu==false && keyboard_check_pressed(ord("C"))){
 
 #endregion
 show_debug_message(global.menu);
+=======
+}
+#endregion
+
+}
