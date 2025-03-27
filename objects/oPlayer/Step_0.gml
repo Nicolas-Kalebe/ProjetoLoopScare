@@ -1,5 +1,10 @@
 var _impedimento = global.dialogando or global.entrando or global.menu
 
+if(global.pause==true){
+	image_speed=0
+	exit;
+}else{image_speed=1}
+
 #region Movimentação NOVA
 key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
@@ -81,11 +86,10 @@ if(keyboard_check_pressed(ord("I"))){
 #endregion
 
 #region Documentos
-if(global.menu==false && keyboard_check_pressed(ord("C"))){
-	instance_create_layer(x,y,"Instances_1",MenuDocumentos);
+if(_impedimento==false && keyboard_check_pressed(ord("C"))){
+	instance_create_layer(x,y,"Instances",MenuDocumentos);
 }
 
 
 
 #endregion
-show_debug_message(global.menu);

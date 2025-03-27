@@ -1,5 +1,12 @@
 var _sala = 0;
 
+#region pause
+if(global.pause==true){
+	image_speed=0
+	exit;
+}else{image_speed=1}
+#endregion
+
 #region Atravessar porta
 if(global.entrando == false && distance_to_object(oPlayer)<10 && keyboard_check_pressed(ord("W"))){
 	global.entrando=true;

@@ -7,3 +7,12 @@ if(fade_in){
 	draw_set_alpha(1);                // Restaura a transparência para o padrão
 }
 #endregion
+
+if(draw_pause==true && global.menu == false){
+	var _guix = display_get_gui_width();
+	var _guiy = display_get_gui_height()
+	draw_set_color(c_black);
+	draw_set_alpha(0.8)
+	draw_rectangle(0,0,_guix,_guiy,0);
+	draw_set_alpha(1)
+}

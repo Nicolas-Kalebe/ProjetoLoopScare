@@ -1,3 +1,7 @@
+if(global.pause==true){
+	exit;
+}
+
 var nome_documento = ""
 
 if (global.dialogando == false && distance_to_object(oPlayer)<5 

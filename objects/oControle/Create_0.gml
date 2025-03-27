@@ -1,6 +1,10 @@
+global.pause = false;
+draw_pause = false;
+
 global.dialogando = false;
 global.entrando = false;
 global.menu = false;
+
 
 global.parado = true;
 global.lanterna = false;

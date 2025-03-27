@@ -32,7 +32,7 @@
   },
   "name":"Projeto SMT",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"fonteDialogo","path":"fonts/fonteDialogo/fonteDialogo.yy",},},
     {"id":{"name":"fonteMenu","path":"fonts/fonteMenu/fonteMenu.yy",},},
     {"id":{"name":"dCaixa","path":"objects/dCaixa/dCaixa.yy",},},
     {"id":{"name":"dModelo","path":"objects/dModelo/dModelo.yy",},},

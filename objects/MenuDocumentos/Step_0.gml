@@ -1,6 +1,7 @@
 var listaDeDocumentos = ds_list_find_value(oDocumentosColetados.DocEncontrados, indice_selecionado);
 
 if(inicializar==false){
+	global.pause = true;
 	global.menu = true;
 	inicializar = true;
 }
@@ -15,8 +16,9 @@ if (global.dialogando == false && keyboard_check_pressed(ord("W"))) { // Pra cim
         scroll_offset = _alturaTotalLista - display_get_gui_height() + 50; // Ajuste para mostrar o final
     } else {
         // Caso contrário, sobe normalmente
+		if(tamanhoDaLista>1){
         indice_selecionado = (indice_selecionado - 1 + tamanhoDaLista) mod tamanhoDaLista;
-
+		}
         // Verificar se o item selecionado está fora da tela superior e rolar automaticamente
         var _posY = _guiy - 150 + indice_selecionado * _espacamento - scroll_offset;
         if (_posY - _espacamento< 0) {
@@ -33,8 +35,12 @@ if (global.dialogando == false && keyboard_check_pressed(ord("S"))) { // Pra bai
         scroll_offset = 0;
     } else {
         // Caso contrário, avança normalmente
-        indice_selecionado = (indice_selecionado + 1) mod tamanhoDaLista;
         
+		
+		if(tamanhoDaLista>1){
+			indice_selecionado = (indice_selecionado + 1) mod tamanhoDaLista;
+		}
+		
         // Verificar se o item selecionado está no fim da tela e rolar automaticamente
         var _posY = _guiy - 150 + indice_selecionado * _espacamento - scroll_offset;
         if (_posY + _espacamento*2 > display_get_gui_height()) {
@@ -44,9 +50,8 @@ if (global.dialogando == false && keyboard_check_pressed(ord("S"))) { // Pra bai
     }
 }
 
-if (global.dialogando == false && keyboard_check_pressed(vk_space)) {// Confirmar
+if (tamanhoDaLista>0 && global.dialogando == false && keyboard_check_pressed(vk_space)) {// Confirmar
 			var documento = ds_list_find_value(oDocumentosColetados.DocEncontrados, indice_selecionado);
-			show_debug_message("Selecionado: " + documento);
 			var _documento = instance_create_layer(x,y,"lDocumento",oDocumento)
 			_documento.img_documento = listaDeDocumentos;
 		}
@@ -63,7 +68,7 @@ if (mouse_wheel_up()) {
 }
 #endregion
 
-if(keyboard_check_pressed(vk_escape)){
+if(!instance_exists(oDocumento)&& keyboard_check_pressed(vk_escape)){
 	global.menu=false;
 	global.dialogando=false;
 	instance_destroy(self);
