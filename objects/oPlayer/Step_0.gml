@@ -79,10 +79,11 @@ if(keyboard_check_pressed(ord("T"))){
 #endregion
 
 #region Inventário
-if(keyboard_check_pressed(ord("I"))){
-	global.inventario = !global.inventario;	
-}
+var _inventarioAberto = instance_exists(oInventario);
 
+if(!_impedimento && !global.pause && keyboard_check_pressed(vk_tab)){
+	instance_create_layer(x,y,"Controle",oInventario);
+}
 #endregion
 
 #region Documentos

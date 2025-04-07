@@ -1,8 +1,11 @@
+inicializar=false;
+
 comeco_x = 17;
 comeco_y = 63;
 
 escala=1;
 
+selected_slot = -1;
 slots_h = 6;
 slots_y = 5;
 

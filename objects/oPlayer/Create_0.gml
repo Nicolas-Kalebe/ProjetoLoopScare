@@ -7,6 +7,7 @@ grav=0.4; // gravidade manipulada
 movimento = 0 // variavel que vai de -1 e 1 para checar se o personagem estava andando pra esquerda ou para a direita
 
 
+
 //audio_play_sound(sndBack,1,1);
 
 
