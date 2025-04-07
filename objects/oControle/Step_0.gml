@@ -22,4 +22,4 @@ if(!instance_exists(oDocumento) && keyboard_check_pressed(vk_escape)){
 }
 #endregion
 
-show_debug_message(draw_pause)
+show_debug_message(global.pause)

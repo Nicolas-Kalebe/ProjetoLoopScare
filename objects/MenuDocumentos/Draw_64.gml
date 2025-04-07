@@ -8,7 +8,7 @@ var _scrollMax = max(0, _alturaTotalLista - display_get_gui_height() + 50);
 scroll_offset = clamp(scroll_offset, 0, _scrollMax);
 
 // Fundo do menu
-draw_sprite_ext(documentosmenu1, 0, 0, 0, 1, 1, 0, c_white, 1);
+draw_sprite_ext(PlaceHolderMenu, 0, 0, 0, 1, 1, 0, c_white, 1);
 draw_set_font(fonteMenu);
 draw_set_halign(fa_center);
 

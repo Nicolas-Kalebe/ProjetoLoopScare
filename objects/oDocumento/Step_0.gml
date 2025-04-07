@@ -52,7 +52,9 @@ if(keyboard_check_pressed(ord("F")) && pagina+1<=_numDeSprites){
 	pagina++
 }
 if(keyboard_check_pressed(ord("F")) && pagina+1>_numDeSprites){
-	global.pause = false;
+	if(!instance_exists(MenuDocumentos)){
+		global.pause = false;
+	}
 	instance_destroy(self);
 }
 
